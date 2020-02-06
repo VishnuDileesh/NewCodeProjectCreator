@@ -4,13 +4,18 @@ echo "DON'T BE AFRAID TO FAIL. BE AFRAID NOT TO TRY"
 
 cd ~/CodeProjects/
 
-mkdir $1
+NAME=$1
+TYPE=$2
 
-cd $1
+mkdir $NAME
+
+cd $NAME
 
 /usr/bin/env python3 -m venv env
 
-cp ~/Scripts/project/.gitignore ~/CodeProjects/$1
+cp ~/Scripts/project/.gitignore ~/CodeProjects/$NAME
 
 git init
+
+
 
