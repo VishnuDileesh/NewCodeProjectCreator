@@ -32,7 +32,7 @@ if [ "$TYPE" == "-w" ]; then
 	io.elementary.terminal -w ~/CodeProjects/$NAME -e ./launchwebproject.sh -n
 
 
-	io.elementary.terminal -w ~/CodeProjects/$NAME -n
+	io.elementary.terminal -w ~/CodeProjects/$NAME -e ./launchworkterminal.sh -n
 
 	echo "Done building the project"
 
