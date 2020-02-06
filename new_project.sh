@@ -25,17 +25,22 @@ if [ "$TYPE" == "-w" ]; then
 
 	cp ~/Scripts/project/launchwebproject.sh ~/CodeProjects/$NAME
 
+	cp ~/Scripts/project/launchworkterminal.sh ~/CodeProjects/$NAME
 
 	#./launchwebproject.sh $NAME
 
 	io.elementary.terminal -w ~/CodeProjects/$NAME -e ./launchwebproject.sh -n
 
 
+	io.elementary.terminal -w ~/CodeProjects/$NAME -n
+
+	echo "Done building the project"
+
 else
 
 	io.elementary.terminal -w ~/CodeProjects/$NAME -n
 
-	echo "Done"
+	echo "Done building the project"
 #	io.elementary.terminal -w ~/Scripts/ -e ./launchproject.sh -n
 
 fi
