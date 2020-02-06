@@ -21,6 +21,16 @@ if [ "$TYPE" == "-w" ]; then
 	
 	cp ~/Scripts/project/app.py ~/CodeProjects/$NAME
 
+	echo "Server template added to project"
+
+	cp ~/Scripts/project/launchwebproject.sh ~/CodeProjects/$NAME
+
+
+	#./launchwebproject.sh $NAME
+
+	io.elementary.terminal -w ~/CodeProjects/$NAME -e ./launchwebproject.sh -n
+
+
 else
 
 	echo "Hello"

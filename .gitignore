@@ -25,4 +25,5 @@ venv/
 env.bak/
 venv.back/
 .mypy_cache/
+launchwebproject.sh
 
