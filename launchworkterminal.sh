@@ -2,4 +2,4 @@
 
 source env/bin/activate
 
-vim app.py
+echo "Go ahead build your dream"
