@@ -17,5 +17,14 @@ cp ~/Scripts/project/.gitignore ~/CodeProjects/$NAME
 
 git init
 
+if [ "$TYPE" == "-w" ]; then
+	
+	cp ~/Scripts/project/app.py ~/CodeProjects/$NAME
 
+else
+
+	echo "Hello"
+#	io.elementary.terminal -w ~/Scripts/ -e ./launchproject.sh -n
+
+fi
 
