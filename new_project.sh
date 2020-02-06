@@ -10,4 +10,7 @@ cd $1
 
 /usr/bin/env python3 -m venv env
 
-echo "*~ *.swp *.swo" > .gitignore
+cp ~/Scripts/project/.gitignore ~/CodeProjects/$1
+
+git init
+
