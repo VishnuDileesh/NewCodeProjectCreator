@@ -9,3 +9,5 @@ mkdir $1
 cd $1
 
 /usr/bin/env python3 -m venv env
+
+echo "*~ *.swp *.swo" > .gitignore
