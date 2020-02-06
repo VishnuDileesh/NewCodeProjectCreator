@@ -33,7 +33,9 @@ if [ "$TYPE" == "-w" ]; then
 
 else
 
-	echo "Hello"
+	io.elementary.terminal -w ~/CodeProjects/$NAME -n
+
+	echo "Done"
 #	io.elementary.terminal -w ~/Scripts/ -e ./launchproject.sh -n
 
 fi
