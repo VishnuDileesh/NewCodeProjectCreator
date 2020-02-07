@@ -34,6 +34,8 @@ Bash shell script which automates the process of steps required in on starting a
 > And then copies git ignore file to the code project folder and do `git init`.
 > Then launches a new work terminal in the code project folder.
 
+---
+---
 
 > This is a personal project i came up with while learning bash scripting. The automation is done based on my own workflow and environment i work in. You are free to go ahead and look through the repo and make changes according to your workflow.
 
