@@ -27,6 +27,8 @@ if [ "$TYPE" == "-w" ]; then
 
 	cp ~/Scripts/project/launchworkterminal.sh ~/CodeProjects/$NAME
 
+	cp ~/Scripts/project/requirements.txt ~/CodeProjects/$NAME
+
 	#./launchwebproject.sh $NAME
 
 	io.elementary.terminal -w ~/CodeProjects/$NAME -e ./launchwebproject.sh -n
